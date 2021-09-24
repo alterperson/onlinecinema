@@ -1,0 +1,48 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  display: flex;
+  width: 400px;
+  max-width: 100%;
+  height: 100vh;
+  padding: 80px 30px 30px;
+  background-color: var(--color-bg);
+  transition: right 0.5s;
+}
+
+.navigation__list {
+  margin: 0 auto;
+}
+
+.navigation__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.navigation__link {
+  font-size: 20px;
+  transition: color 0.2s;
+}
+
+.navigation__link:hover {
+  color: var(--color-primary);
+}
+
+.navigation__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.navigation__close-cross {
+  width: 30px;
+  height: 30px;
+  fill: var(--color-text);
+  transition: fill 0.2s;
+}
+
+.navigation__close:hover .navigation__close-cross {
+  fill: var(--color-primary);
+}
