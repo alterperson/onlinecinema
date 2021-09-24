@@ -26,7 +26,8 @@ img {
 
 h1,
 h2,
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -37,6 +38,16 @@ button {
 ul {
   list-style: none;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  box-shadow: 0 0 3px 2px var(--color-primary);
 }
 
 .container {
