@@ -41,6 +41,8 @@
   background-color: var(--color-secondary);
   border: none;
   border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.2s;
 }
 
 .film-week__watch-trailer {
@@ -51,6 +53,13 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 6px;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.film-week__watch-btn:focus,
+.film-week__watch-trailer:focus {
+  box-shadow: 0 0 3px 2px var(--color-primary);
 }
 
 @media (max-width: 1280px) {
