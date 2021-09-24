@@ -43,6 +43,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-primary);
 }
 
 a:focus,
