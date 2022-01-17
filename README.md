@@ -1,2 +1,2 @@
-# onlinecinema--methEd
- Интенсив - Верстаем сайт онлайн-кинотеатра от MethEd
+# onlinecinema
+ Сайт онлайн-кинотеатра
